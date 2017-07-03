@@ -1,0 +1,3 @@
+alias dc='docker-compose'
+alias g='$([[ -e ../gradlew ]] && echo ../gradlew || echo ./gradlew) --parallel -Dorg.gradle.parallel.intra=true'
+alias saveAlias='alias > ~/dev/aliases.txt'
